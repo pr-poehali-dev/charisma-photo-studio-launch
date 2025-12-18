@@ -261,9 +261,7 @@ const Index = () => {
             <div className="space-y-2">
               <Icon name="MapPin" size={32} className="mx-auto mb-4" />
               <p className="font-semibold">Адрес</p>
-              <p className="text-muted-foreground">
-                г. Москва, ул. Примерная, 10
-              </p>
+              <p className="text-muted-foreground">Пулковское шоссе д.30 (БЦ)</p>
             </div>
           </div>
           <div className="flex gap-4 justify-center pt-8">
