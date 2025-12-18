@@ -53,19 +53,14 @@ const Index = () => {
 
   const team = [
     {
-      name: 'Анна Петрова',
-      role: 'Главный фотограф',
-      description: 'Опыт работы 10+ лет, специализация на портретной и fashion съёмке',
+      name: 'Карина Костюшкина',
+      role: 'Директор',
+      description: 'Управление студией и координация всех процессов',
     },
     {
-      name: 'Дмитрий Соколов',
-      role: 'Фотограф',
-      description: 'Эксперт по предметной и рекламной фотографии',
-    },
-    {
-      name: 'Елена Морозова',
-      role: 'Ретушёр',
-      description: 'Профессиональная обработка и цветокоррекция',
+      name: 'Олеся Золотова',
+      role: 'Администратор',
+      description: 'Консультации, запись клиентов и организация съёмок',
     },
   ];
 
@@ -73,7 +68,11 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold tracking-tight">ХАРИЗМА</h1>
+          <img 
+            src="https://cdn.poehali.dev/files/image (1).png" 
+            alt="Харизма" 
+            className="h-12 w-auto"
+          />
           <div className="hidden md:flex gap-8">
             <button
               onClick={() => scrollToSection('hero')}
@@ -126,9 +125,11 @@ const Index = () => {
         className="min-h-screen flex items-center justify-center px-4 pt-20"
       >
         <div className="container mx-auto max-w-4xl text-center space-y-8">
-          <h2 className="text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-            Фотостудия<br />ХАРИЗМА
-          </h2>
+          <img 
+            src="https://cdn.poehali.dev/files/image (1).png" 
+            alt="Харизма" 
+            className="h-32 md:h-48 w-auto mx-auto mb-8"
+          />
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
             Профессиональная фотография с душой. Создаём уникальные образы и
             сохраняем важные моменты
